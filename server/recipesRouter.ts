@@ -2,6 +2,7 @@ import express, { Request, Response, Router } from 'express';
 import { JSONFilePreset  } from 'lowdb/node';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { Database, Recipe, RecipePreview } from './types';
 
 const router: Router = express.Router();
 
@@ -9,50 +10,19 @@ const router: Router = express.Router();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Define interfaces
-interface Recipe {
-  recipe_id: number;
-  title: string;
-  slug: string;
-  image: string;
-  prep_time: string;
-  cook_time: string;
-  rating: number;
-  ingredients: string[];
-  instructions: string[];
-  nutrition: {
-    calories: number;
-    protein: string;
-    carbs: string;
-    fat: string;
-  };
-  view_count: number;
-  created_at: string;
-  updated_at: string;
-}
-
-interface RecipePreview {
-  recipe_id: number;
-  title: string;
-  slug: string;
-  image: string;
-  prep_time: string;
-  cook_time: string;
-  rating: number;
-}
-
-interface Database {
-  recipes: Recipe[];
-}
-
 // Setup database
 const filePath = path.join(__dirname, 'db.json');
 const db = await JSONFilePreset<Database>(filePath, { recipes: [] });
 
 // Recipe service
 class RecipeService {
+  private static initialized = false;
+
   static async init() {
-    await db.read();
+    if (!this.initialized) {
+      await db.read();
+      this.initialized = true;
+    }
   }
 
   static toPreview(recipe: Recipe): RecipePreview {
@@ -69,7 +39,6 @@ class RecipeService {
 
   static async getAllPreviews(): Promise<RecipePreview[]> {
     await this.init();
-    console.log("db.data", db.data)
     return db.data.recipes.map(this.toPreview);
   }
 
