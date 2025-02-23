@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/index.ts",
+  "type": "module",
   "scripts": {
     "backend:build": "tsc",
     "backend:start": "cross-env NODE_ENV=production node dist/index.js",
-    "backend:dev": "nodemon server/index.ts",
+    "backend:dev": "tsx watch server/index.ts",
     "install-all": "npm install && cd client && npm install",
     "dev": "concurrently \"npm run backend:dev\" \"cd client && npm run dev\"",
     "backend:clean": "rimraf ./dist",
@@ -22,11 +23,14 @@
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "lowdb": "^7.0.1",
+    "tsx": "^4.19.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
+    "@types/lowdb": "^1.0.15",
     "@types/node": "^22.13.10",
     "concurrently": "^9.1.2",
     "nodemon": "^3.1.9",
