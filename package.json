@@ -5,18 +5,23 @@
   "main": "server/index.ts",
   "scripts": {
     "backend:build": "tsc",
-    "backend:start": "node dist/index.js",
+    "backend:start": "cross-env NODE_ENV=production node dist/index.js",
     "backend:dev": "nodemon server/index.ts",
     "install-all": "npm install && cd client && npm install",
     "dev": "concurrently \"npm run backend:dev\" \"cd client && npm run dev\"",
     "backend:clean": "rimraf ./dist",
     "client:clean": "cd client && rimraf dist",
-    "clean": "npm run backend:clean && npm run client:clean"
+    "client:build": "cd client && npm run build",
+    "clean": "npm run backend:clean && npm run client:clean",
+    "build": "npm run clean && npm run backend:build && npm run client:build",
+    "start": "npm run build && npm run backend:start"
   },
   "author": "ysskrishna",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
   "devDependencies": {
