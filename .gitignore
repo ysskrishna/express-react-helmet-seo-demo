@@ -33,3 +33,5 @@ coverage/
 .yarn-integrity 
 
 workspace/
+.git/
+client/node_modules/
