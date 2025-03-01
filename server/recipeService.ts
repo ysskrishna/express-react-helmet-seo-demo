@@ -32,7 +32,7 @@ export class RecipeService {
     await this.init();
     return db.data.recipes
       .sort((a, b) => b.view_count - a.view_count)
-      .slice(0, 5)
+      .slice(0, 4)
       .map(this.toPreview);
   }
 
@@ -40,13 +40,24 @@ export class RecipeService {
     await this.init();
     return db.data.recipes
       .sort((a, b) => b.rating - a.rating)
-      .slice(0, 5)
+      .slice(0, 4)
       .map(this.toPreview);
   }
 
   static async getRecipeById(recipe_id: number): Promise<Recipe | undefined> {
     await this.init();
     const recipe = db.data.recipes.find(r => r.recipe_id === recipe_id);
+    if (recipe) {
+      // Increment view count
+      recipe.view_count += 1;
+      await db.write();
+    }
+    return recipe;
+  }
+
+  static async getRecipeBySlug(slug: string): Promise<Recipe | undefined> {
+    await this.init();
+    const recipe =  db.data.recipes.find(r => r.slug === slug);
     if (recipe) {
       // Increment view count
       recipe.view_count += 1;
