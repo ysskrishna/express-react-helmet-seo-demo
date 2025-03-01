@@ -8,12 +8,7 @@ import { Footer } from './components/Footer';
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  useEffect(() => {
-    fetch('/api/health')
-      .then(response => response.json())
-      .then(data => console.log("health check", data))
-      .catch(error => console.error('Error:', error))
-  }, []);
+
   return (
     <Router>
       <div className="min-h-screen flex flex-col bg-gray-50">

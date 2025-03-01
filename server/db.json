@@ -1,6 +1,39 @@
 {
   "recipes": [
     {
+      "recipe_id": 25,
+      "title": "French Toast",
+      "slug": "french-toast",
+      "image": "https://images.unsplash.com/photo-1588484588657-0bbbee05132f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RnJlbmNoJTIwVG9hc3R8ZW58MHx8MHx8fDI%3D",
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "rating": 4.9,
+      "ingredients": [
+        "2 slices of bread",
+        "1 egg",
+        "1/4 cup milk",
+        "1 tbsp sugar",
+        "1/2 tsp cinnamon",
+        "1 tbsp butter",
+        "Maple syrup"
+      ],
+      "instructions": [
+        "Whisk egg, milk, sugar, and cinnamon in a bowl.",
+        "Dip bread slices into the mixture until coated.",
+        "Heat butter in a pan and cook each side until golden.",
+        "Serve with maple syrup and fresh berries."
+      ],
+      "nutrition": {
+        "calories": 280,
+        "protein": "8g",
+        "carbs": "35g",
+        "fat": "10g"
+      },
+      "view_count": 1206,
+      "created_at": "2024-03-29T07:30:00Z",
+      "updated_at": "2024-03-29T10:00:00Z"
+    },
+    {
       "recipe_id": 17,
       "title": "Butter Chicken",
       "slug": "butter-chicken",
@@ -31,42 +64,78 @@
         "carbs": "10g",
         "fat": "25g"
       },
-      "view_count": 1202,
+      "view_count": 1204,
       "created_at": "2024-03-21T08:30:00Z",
       "updated_at": "2024-03-21T11:00:00Z"
     },
     {
-      "recipe_id": 25,
-      "title": "French Toast",
-      "slug": "french-toast",
-      "image": "https://images.unsplash.com/photo-1588484588657-0bbbee05132f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RnJlbmNoJTIwVG9hc3R8ZW58MHx8MHx8fDI%3D",
-      "prep_time": "5 min",
-      "cook_time": "10 min",
-      "rating": 4.9,
+      "recipe_id": 24,
+      "title": "Chili Con Carne",
+      "slug": "chili-con-carne",
+      "image": "https://images.unsplash.com/photo-1509249270761-2f410c3c47dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpbGklMjBDb24lMjBDYXJuZXxlbnwwfHwwfHx8Mg%3D%3D",
+      "prep_time": "15 min",
+      "cook_time": "45 min",
+      "rating": 4.8,
       "ingredients": [
-        "2 slices of bread",
-        "1 egg",
-        "1/4 cup milk",
-        "1 tbsp sugar",
-        "1/2 tsp cinnamon",
-        "1 tbsp butter",
-        "Maple syrup"
+        "500g ground beef",
+        "1 can kidney beans",
+        "1 can diced tomatoes",
+        "1 onion",
+        "2 cloves garlic",
+        "1 tbsp chili powder",
+        "1 tsp cumin",
+        "Salt and black pepper"
       ],
       "instructions": [
-        "Whisk egg, milk, sugar, and cinnamon in a bowl.",
-        "Dip bread slices into the mixture until coated.",
-        "Heat butter in a pan and cook each side until golden.",
-        "Serve with maple syrup and fresh berries."
+        "Sauté onions and garlic in a large pot.",
+        "Add ground beef and cook until browned.",
+        "Stir in diced tomatoes, kidney beans, and spices.",
+        "Simmer for 30 minutes, stirring occasionally.",
+        "Serve hot with rice or cornbread."
       ],
       "nutrition": {
-        "calories": 280,
-        "protein": "8g",
+        "calories": 480,
+        "protein": "38g",
         "carbs": "35g",
-        "fat": "10g"
+        "fat": "20g"
       },
-      "view_count": 1202,
-      "created_at": "2024-03-29T07:30:00Z",
-      "updated_at": "2024-03-29T10:00:00Z"
+      "view_count": 942,
+      "created_at": "2024-03-28T09:45:00Z",
+      "updated_at": "2024-03-28T12:00:00Z"
+    },
+    {
+      "recipe_id": 19,
+      "title": "Sushi Rolls",
+      "slug": "sushi-rolls",
+      "image": "https://images.unsplash.com/photo-1617196034183-421b4917c92d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3VzaGklMjBSb2xsc3xlbnwwfHwwfHx8Mg%3D%3D",
+      "prep_time": "20 min",
+      "cook_time": "2 min",
+      "rating": 4.7,
+      "ingredients": [
+        "1 cup sushi rice",
+        "4 nori sheets",
+        "100g raw salmon",
+        "1 avocado",
+        "1 cucumber",
+        "Soy sauce",
+        "Wasabi"
+      ],
+      "instructions": [
+        "Cook and season sushi rice.",
+        "Place nori sheet on a bamboo mat.",
+        "Spread rice evenly and add fillings.",
+        "Roll tightly and slice into pieces.",
+        "Serve with soy sauce and wasabi."
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": "15g",
+        "carbs": "45g",
+        "fat": "8g"
+      },
+      "view_count": 920,
+      "created_at": "2024-03-23T07:30:00Z",
+      "updated_at": "2024-03-23T10:00:00Z"
     },
     {
       "recipe_id": 21,
@@ -136,105 +205,38 @@
       "updated_at": "2024-03-12T14:30:00Z"
     },
     {
-      "recipe_id": 5,
-      "title": "Chocolate Brownies",
-      "slug": "chocolate-brownies",
-      "image": "https://images.unsplash.com/photo-1612078960206-1709f1f0c969?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENob2NvbGF0ZSUyMEJyb3duaWVzfGVufDB8fDB8fHwy",
-      "prep_time": "15 min",
-      "cook_time": "25 min",
-      "rating": 4.9,
+      "recipe_id": 16,
+      "title": "Mushroom Risotto",
+      "slug": "mushroom-risotto",
+      "image": "https://images.unsplash.com/photo-1609770424775-39ec362f2d94?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TXVzaHJvb20lMjBSaXNvdHRvfGVufDB8fDB8fHwy",
+      "prep_time": "10 min",
+      "cook_time": "30 min",
+      "rating": 4.7,
       "ingredients": [
-        "200g dark chocolate",
-        "150g butter",
-        "200g sugar",
-        "3 eggs",
-        "100g flour",
-        "Cocoa powder"
-      ],
-      "instructions": [
-        "Melt chocolate and butter over low heat.",
-        "Whisk eggs and sugar until fluffy.",
-        "Mix in melted chocolate and sift in flour and cocoa powder.",
-        "Pour into a baking tray and bake at 180°C (356°F) for 25 minutes.",
-        "Cool and slice into squares."
-      ],
-      "nutrition": {
-        "calories": 450,
-        "protein": "5g",
-        "carbs": "55g",
-        "fat": "22g"
-      },
-      "view_count": 715,
-      "created_at": "2024-03-14T14:30:00Z",
-      "updated_at": "2024-03-14T16:20:00Z"
-    },
-    {
-      "recipe_id": 2,
-      "title": "Margherita Pizza",
-      "slug": "margherita-pizza",
-      "image": "https://images.unsplash.com/photo-1589187151053-5ec8818e661b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFyZ2hlcml0YSUyMFBpenphfGVufDB8fDB8fHwy",
-      "prep_time": "15 min",
-      "cook_time": "20 min",
-      "rating": 4.9,
-      "ingredients": [
-        "250g pizza dough",
-        "100g tomato sauce",
-        "150g fresh mozzarella",
-        "Fresh basil leaves",
-        "Olive oil",
-        "Salt"
-      ],
-      "instructions": [
-        "Preheat oven to 220°C (428°F).",
-        "Roll out the pizza dough and spread tomato sauce evenly.",
-        "Top with fresh mozzarella and basil leaves.",
-        "Drizzle with olive oil and season with salt.",
-        "Bake for 15-20 minutes until golden brown."
-      ],
-      "nutrition": {
-        "calories": 550,
-        "protein": "22g",
-        "carbs": "65g",
-        "fat": "20g"
-      },
-      "view_count": 620,
-      "created_at": "2024-03-11T08:30:00Z",
-      "updated_at": "2024-03-11T10:45:00Z"
-    },
-    {
-      "recipe_id": 24,
-      "title": "Chili Con Carne",
-      "slug": "chili-con-carne",
-      "image": "https://images.unsplash.com/photo-1509249270761-2f410c3c47dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpbGklMjBDb24lMjBDYXJuZXxlbnwwfHwwfHx8Mg%3D%3D",
-      "prep_time": "15 min",
-      "cook_time": "45 min",
-      "rating": 4.8,
-      "ingredients": [
-        "500g ground beef",
-        "1 can kidney beans",
-        "1 can diced tomatoes",
+        "1 cup Arborio rice",
+        "2 cups chicken broth",
+        "1/2 cup white wine",
+        "200g mushrooms",
         "1 onion",
-        "2 cloves garlic",
-        "1 tbsp chili powder",
-        "1 tsp cumin",
-        "Salt and black pepper"
+        "50g parmesan cheese",
+        "2 tbsp butter"
       ],
       "instructions": [
-        "Sauté onions and garlic in a large pot.",
-        "Add ground beef and cook until browned.",
-        "Stir in diced tomatoes, kidney beans, and spices.",
-        "Simmer for 30 minutes, stirring occasionally.",
-        "Serve hot with rice or cornbread."
+        "Sauté onions and mushrooms in butter.",
+        "Add rice and stir until coated.",
+        "Gradually add wine and broth, stirring continuously.",
+        "Cook for 20 minutes until creamy.",
+        "Stir in parmesan cheese and serve."
       ],
       "nutrition": {
-        "calories": 480,
-        "protein": "38g",
-        "carbs": "35g",
-        "fat": "20g"
+        "calories": 320,
+        "protein": "8g",
+        "carbs": "50g",
+        "fat": "10g"
       },
-      "view_count": 940,
-      "created_at": "2024-03-28T09:45:00Z",
-      "updated_at": "2024-03-28T12:00:00Z"
+      "view_count": 780,
+      "created_at": "2024-03-20T10:00:00Z",
+      "updated_at": "2024-03-20T12:00:00Z"
     },
     {
       "recipe_id": 7,
@@ -268,6 +270,70 @@
       "view_count": 720,
       "created_at": "2024-03-11T08:30:00Z",
       "updated_at": "2024-03-11T10:00:00Z"
+    },
+    {
+      "recipe_id": 5,
+      "title": "Chocolate Brownies",
+      "slug": "chocolate-brownies",
+      "image": "https://images.unsplash.com/photo-1612078960206-1709f1f0c969?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENob2NvbGF0ZSUyMEJyb3duaWVzfGVufDB8fDB8fHwy",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "rating": 4.9,
+      "ingredients": [
+        "200g dark chocolate",
+        "150g butter",
+        "200g sugar",
+        "3 eggs",
+        "100g flour",
+        "Cocoa powder"
+      ],
+      "instructions": [
+        "Melt chocolate and butter over low heat.",
+        "Whisk eggs and sugar until fluffy.",
+        "Mix in melted chocolate and sift in flour and cocoa powder.",
+        "Pour into a baking tray and bake at 180°C (356°F) for 25 minutes.",
+        "Cool and slice into squares."
+      ],
+      "nutrition": {
+        "calories": 450,
+        "protein": "5g",
+        "carbs": "55g",
+        "fat": "22g"
+      },
+      "view_count": 715,
+      "created_at": "2024-03-14T14:30:00Z",
+      "updated_at": "2024-03-14T16:20:00Z"
+    },
+    {
+      "recipe_id": 10,
+      "title": "Garlic Butter Shrimp",
+      "slug": "garlic-butter-shrimp",
+      "image": "https://images.unsplash.com/photo-1597528662465-55ece5734101?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2FybGljJTIwQnV0dGVyJTIwU2hyaW1wfGVufDB8fDB8fHwy",
+      "prep_time": "10 min",
+      "cook_time": "10 min",
+      "rating": 4.7,
+      "ingredients": [
+        "300g shrimp",
+        "3 cloves garlic",
+        "2 tbsp butter",
+        "Lemon juice",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Heat butter in a pan and sauté garlic until fragrant.",
+        "Add shrimp and cook for 2-3 minutes on each side.",
+        "Season with salt, pepper, and lemon juice.",
+        "Serve hot with rice or pasta."
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": "35g",
+        "carbs": "5g",
+        "fat": "18g"
+      },
+      "view_count": 710,
+      "created_at": "2024-03-14T13:45:00Z",
+      "updated_at": "2024-03-14T15:00:00Z"
     },
     {
       "recipe_id": 18,
@@ -305,6 +371,102 @@
       "updated_at": "2024-03-22T11:45:00Z"
     },
     {
+      "recipe_id": 22,
+      "title": "Vegetable Stir Fry",
+      "slug": "vegetable-stir-fry",
+      "image": "https://images.unsplash.com/photo-1464500650248-1a4b45debb9f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VmVnZXRhYmxlJTIwU3RpciUyMEZyeXxlbnwwfHwwfHx8Mg%3D%3D",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "rating": 4.7,
+      "ingredients": [
+        "1 bell pepper",
+        "1 carrot",
+        "1 broccoli head",
+        "100g snap peas",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 clove garlic"
+      ],
+      "instructions": [
+        "Chop all vegetables into bite-sized pieces.",
+        "Heat sesame oil in a pan and sauté garlic.",
+        "Add vegetables and stir-fry for 5-7 minutes.",
+        "Pour soy sauce over vegetables and toss.",
+        "Serve hot with rice or noodles."
+      ],
+      "nutrition": {
+        "calories": 180,
+        "protein": "6g",
+        "carbs": "25g",
+        "fat": "8g"
+      },
+      "view_count": 670,
+      "created_at": "2024-03-26T08:30:00Z",
+      "updated_at": "2024-03-26T11:00:00Z"
+    },
+    {
+      "recipe_id": 2,
+      "title": "Margherita Pizza",
+      "slug": "margherita-pizza",
+      "image": "https://images.unsplash.com/photo-1589187151053-5ec8818e661b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFyZ2hlcml0YSUyMFBpenphfGVufDB8fDB8fHwy",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "rating": 4.9,
+      "ingredients": [
+        "250g pizza dough",
+        "100g tomato sauce",
+        "150g fresh mozzarella",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt"
+      ],
+      "instructions": [
+        "Preheat oven to 220°C (428°F).",
+        "Roll out the pizza dough and spread tomato sauce evenly.",
+        "Top with fresh mozzarella and basil leaves.",
+        "Drizzle with olive oil and season with salt.",
+        "Bake for 15-20 minutes until golden brown."
+      ],
+      "nutrition": {
+        "calories": 550,
+        "protein": "22g",
+        "carbs": "65g",
+        "fat": "20g"
+      },
+      "view_count": 620,
+      "created_at": "2024-03-11T08:30:00Z",
+      "updated_at": "2024-03-11T10:45:00Z"
+    },
+    {
+      "recipe_id": 9,
+      "title": "Strawberry Smoothie",
+      "slug": "strawberry-smoothie",
+      "image": "https://images.unsplash.com/photo-1621797350488-fb28c9217e3b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3RyYXdiZXJyeSUyMFNtb290aGllfGVufDB8fDB8fHwy",
+      "prep_time": "5 min",
+      "cook_time": "0 min",
+      "rating": 4.6,
+      "ingredients": [
+        "1 cup strawberries",
+        "1 banana",
+        "1 cup milk or yogurt",
+        "1 tsp honey",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth.",
+        "Pour into a glass and enjoy immediately."
+      ],
+      "nutrition": {
+        "calories": 250,
+        "protein": "8g",
+        "carbs": "45g",
+        "fat": "5g"
+      },
+      "view_count": 610,
+      "created_at": "2024-03-13T09:15:00Z",
+      "updated_at": "2024-03-13T11:30:00Z"
+    },
+    {
       "recipe_id": 23,
       "title": "Caprese Salad",
       "slug": "caprese-salad",
@@ -336,6 +498,69 @@
       "view_count": 540,
       "created_at": "2024-03-27T11:00:00Z",
       "updated_at": "2024-03-27T13:15:00Z"
+    },
+    {
+      "recipe_id": 20,
+      "title": "Greek Salad",
+      "slug": "greek-salad",
+      "image": "https://images.unsplash.com/photo-1606735584785-1848fdcaea57?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3JlZWslMjBTYWxhZHxlbnwwfHwwfHx8Mg%3D%3D",
+      "prep_time": "10 min",
+      "cook_time": "0 min",
+      "rating": 4.6,
+      "ingredients": [
+        "1 cucumber",
+        "2 tomatoes",
+        "1/2 red onion",
+        "50g feta cheese",
+        "10 black olives",
+        "2 tbsp olive oil",
+        "1 tsp oregano"
+      ],
+      "instructions": [
+        "Chop cucumber, tomatoes, and onion.",
+        "Toss with feta, olives, and olive oil.",
+        "Sprinkle oregano and serve."
+      ],
+      "nutrition": {
+        "calories": 220,
+        "protein": "6g",
+        "carbs": "15g",
+        "fat": "14g"
+      },
+      "view_count": 540,
+      "created_at": "2024-03-24T11:45:00Z",
+      "updated_at": "2024-03-24T13:15:00Z"
+    },
+    {
+      "recipe_id": 6,
+      "title": "Grilled Salmon with Lemon",
+      "slug": "grilled-salmon-lemon",
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3JpbGxlZCUyMFNhbG1vbiUyMHdpdGglMjBMZW1vbnxlbnwwfHwwfHx8Mg%3D%3D",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "rating": 4.7,
+      "ingredients": [
+        "2 salmon fillets",
+        "1 lemon",
+        "2 cloves garlic",
+        "Salt and black pepper",
+        "Olive oil"
+      ],
+      "instructions": [
+        "Preheat grill and brush with olive oil.",
+        "Season salmon with salt, pepper, and minced garlic.",
+        "Grill for 5-7 minutes on each side.",
+        "Squeeze fresh lemon juice over the salmon before serving."
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": "45g",
+        "carbs": "3g",
+        "fat": "20g"
+      },
+      "view_count": 510,
+      "created_at": "2024-03-10T17:00:00Z",
+      "updated_at": "2024-03-10T19:15:00Z"
     },
     {
       "recipe_id": 1,
@@ -371,174 +596,10 @@
       "updated_at": "2024-03-10T15:30:00Z"
     },
     {
-      "recipe_id": 19,
-      "title": "Sushi Rolls",
-      "slug": "sushi-rolls",
-      "image": "https://images.unsplash.com/photo-1617196034183-421b4917c92d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3VzaGklMjBSb2xsc3xlbnwwfHwwfHx8Mg%3D%3D",
-      "prep_time": "20 min",
-      "cook_time": "0 min",
-      "rating": 4.7,
-      "ingredients": [
-        "1 cup sushi rice",
-        "4 nori sheets",
-        "100g raw salmon",
-        "1 avocado",
-        "1 cucumber",
-        "Soy sauce",
-        "Wasabi"
-      ],
-      "instructions": [
-        "Cook and season sushi rice.",
-        "Place nori sheet on a bamboo mat.",
-        "Spread rice evenly and add fillings.",
-        "Roll tightly and slice into pieces.",
-        "Serve with soy sauce and wasabi."
-      ],
-      "nutrition": {
-        "calories": 320,
-        "protein": "15g",
-        "carbs": "45g",
-        "fat": "8g"
-      },
-      "view_count": 920,
-      "created_at": "2024-03-23T07:30:00Z",
-      "updated_at": "2024-03-23T10:00:00Z"
-    },
-    {
-      "recipe_id": 16,
-      "title": "Mushroom Risotto",
-      "slug": "mushroom-risotto",
-      "image": "https://images.unsplash.com/photo-1609770424775-39ec362f2d94?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TXVzaHJvb20lMjBSaXNvdHRvfGVufDB8fDB8fHwy",
-      "prep_time": "10 min",
-      "cook_time": "30 min",
-      "rating": 4.7,
-      "ingredients": [
-        "1 cup Arborio rice",
-        "2 cups chicken broth",
-        "1/2 cup white wine",
-        "200g mushrooms",
-        "1 onion",
-        "50g parmesan cheese",
-        "2 tbsp butter"
-      ],
-      "instructions": [
-        "Sauté onions and mushrooms in butter.",
-        "Add rice and stir until coated.",
-        "Gradually add wine and broth, stirring continuously.",
-        "Cook for 20 minutes until creamy.",
-        "Stir in parmesan cheese and serve."
-      ],
-      "nutrition": {
-        "calories": 320,
-        "protein": "8g",
-        "carbs": "50g",
-        "fat": "10g"
-      },
-      "view_count": 780,
-      "created_at": "2024-03-20T10:00:00Z",
-      "updated_at": "2024-03-20T12:00:00Z"
-    },
-    {
-      "recipe_id": 10,
-      "title": "Garlic Butter Shrimp",
-      "slug": "garlic-butter-shrimp",
-      "image": "https://images.unsplash.com/photo-1597528662465-55ece5734101?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2FybGljJTIwQnV0dGVyJTIwU2hyaW1wfGVufDB8fDB8fHwy",
-      "prep_time": "10 min",
-      "cook_time": "10 min",
-      "rating": 4.7,
-      "ingredients": [
-        "300g shrimp",
-        "3 cloves garlic",
-        "2 tbsp butter",
-        "Lemon juice",
-        "Salt and pepper"
-      ],
-      "instructions": [
-        "Heat butter in a pan and sauté garlic until fragrant.",
-        "Add shrimp and cook for 2-3 minutes on each side.",
-        "Season with salt, pepper, and lemon juice.",
-        "Serve hot with rice or pasta."
-      ],
-      "nutrition": {
-        "calories": 320,
-        "protein": "35g",
-        "carbs": "5g",
-        "fat": "18g"
-      },
-      "view_count": 710,
-      "created_at": "2024-03-14T13:45:00Z",
-      "updated_at": "2024-03-14T15:00:00Z"
-    },
-    {
-      "recipe_id": 22,
-      "title": "Vegetable Stir Fry",
-      "slug": "vegetable-stir-fry",
-      "image": "https://images.unsplash.com/photo-1464500650248-1a4b45debb9f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VmVnZXRhYmxlJTIwU3RpciUyMEZyeXxlbnwwfHwwfHx8Mg%3D%3D",
-      "prep_time": "10 min",
-      "cook_time": "15 min",
-      "rating": 4.7,
-      "ingredients": [
-        "1 bell pepper",
-        "1 carrot",
-        "1 broccoli head",
-        "100g snap peas",
-        "2 tbsp soy sauce",
-        "1 tbsp sesame oil",
-        "1 clove garlic"
-      ],
-      "instructions": [
-        "Chop all vegetables into bite-sized pieces.",
-        "Heat sesame oil in a pan and sauté garlic.",
-        "Add vegetables and stir-fry for 5-7 minutes.",
-        "Pour soy sauce over vegetables and toss.",
-        "Serve hot with rice or noodles."
-      ],
-      "nutrition": {
-        "calories": 180,
-        "protein": "6g",
-        "carbs": "25g",
-        "fat": "8g"
-      },
-      "view_count": 670,
-      "created_at": "2024-03-26T08:30:00Z",
-      "updated_at": "2024-03-26T11:00:00Z"
-    },
-    {
-      "recipe_id": 6,
-      "title": "Grilled Salmon with Lemon",
-      "slug": "grilled-salmon-lemon",
-      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3JpbGxlZCUyMFNhbG1vbiUyMHdpdGglMjBMZW1vbnxlbnwwfHwwfHx8Mg%3D%3D",
-      "prep_time": "10 min",
-      "cook_time": "15 min",
-      "rating": 4.7,
-      "ingredients": [
-        "2 salmon fillets",
-        "1 lemon",
-        "2 cloves garlic",
-        "Salt and black pepper",
-        "Olive oil"
-      ],
-      "instructions": [
-        "Preheat grill and brush with olive oil.",
-        "Season salmon with salt, pepper, and minced garlic.",
-        "Grill for 5-7 minutes on each side.",
-        "Squeeze fresh lemon juice over the salmon before serving."
-      ],
-      "nutrition": {
-        "calories": 380,
-        "protein": "45g",
-        "carbs": "3g",
-        "fat": "20g"
-      },
-      "view_count": 510,
-      "created_at": "2024-03-10T17:00:00Z",
-      "updated_at": "2024-03-10T19:15:00Z"
-    },
-    {
       "recipe_id": 3,
       "title": "Avocado Toast with Egg",
       "slug": "avocado-toast-egg",
-      "image": "https://unsplash.com/photos/sandwich-with-boiled-egg-fdlZBWIP0aM",
+      "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "prep_time": "5 min",
       "cook_time": "5 min",
       "rating": 4.7,
@@ -565,67 +626,6 @@
       "view_count": 420,
       "created_at": "2024-03-12T09:15:00Z",
       "updated_at": "2024-03-12T11:30:00Z"
-    },
-    {
-      "recipe_id": 9,
-      "title": "Strawberry Smoothie",
-      "slug": "strawberry-smoothie",
-      "image": "https://images.unsplash.com/photo-1621797350488-fb28c9217e3b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3RyYXdiZXJyeSUyMFNtb290aGllfGVufDB8fDB8fHwy",
-      "prep_time": "5 min",
-      "cook_time": "0 min",
-      "rating": 4.6,
-      "ingredients": [
-        "1 cup strawberries",
-        "1 banana",
-        "1 cup milk or yogurt",
-        "1 tsp honey",
-        "Ice cubes"
-      ],
-      "instructions": [
-        "Blend all ingredients until smooth.",
-        "Pour into a glass and enjoy immediately."
-      ],
-      "nutrition": {
-        "calories": 250,
-        "protein": "8g",
-        "carbs": "45g",
-        "fat": "5g"
-      },
-      "view_count": 610,
-      "created_at": "2024-03-13T09:15:00Z",
-      "updated_at": "2024-03-13T11:30:00Z"
-    },
-    {
-      "recipe_id": 20,
-      "title": "Greek Salad",
-      "slug": "greek-salad",
-      "image": "https://images.unsplash.com/photo-1606735584785-1848fdcaea57?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3JlZWslMjBTYWxhZHxlbnwwfHwwfHx8Mg%3D%3D",
-      "prep_time": "10 min",
-      "cook_time": "0 min",
-      "rating": 4.6,
-      "ingredients": [
-        "1 cucumber",
-        "2 tomatoes",
-        "1/2 red onion",
-        "50g feta cheese",
-        "10 black olives",
-        "2 tbsp olive oil",
-        "1 tsp oregano"
-      ],
-      "instructions": [
-        "Chop cucumber, tomatoes, and onion.",
-        "Toss with feta, olives, and olive oil.",
-        "Sprinkle oregano and serve."
-      ],
-      "nutrition": {
-        "calories": 220,
-        "protein": "6g",
-        "carbs": "15g",
-        "fat": "14g"
-      },
-      "view_count": 540,
-      "created_at": "2024-03-24T11:45:00Z",
-      "updated_at": "2024-03-24T13:15:00Z"
     },
     {
       "recipe_id": 4,
