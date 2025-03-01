@@ -22,7 +22,7 @@ function App() {
             <div className="flex justify-between h-16">
               <div className="flex items-center space-x-8">
                 <Link to="/" className="text-xl font-bold text-indigo-600">
-                  Recipe App
+                  Recipe Feast
                 </Link>
                 <div className="hidden sm:flex space-x-4">
                   <Link to="/" className="px-3 py-2 rounded-md text-gray-900 hover:text-indigo-600 hover:bg-indigo-50 transition">

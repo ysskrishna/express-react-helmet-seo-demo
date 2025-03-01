@@ -34,28 +34,29 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" 
+                <a href="https://bento.me/ysskrishna" target="_blank" rel="noopener noreferrer"
                    className="text-gray-400 hover:text-white transition">
-                  Twitter
+                  Bento
                 </a>
               </li>
               <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/ysskrishna/" target="_blank" rel="noopener noreferrer" 
                    className="text-gray-400 hover:text-white transition">
-                  Facebook
+                  LinkedIn
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/ysskrishna" target="_blank" rel="noopener noreferrer"
                    className="text-gray-400 hover:text-white transition">
-                  Instagram
+                  GitHub
                 </a>
               </li>
+              
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Recipe App. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Recipe Feast. All rights reserved.</p>
         </div>
       </div>
     </footer>
