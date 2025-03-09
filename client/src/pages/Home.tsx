@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import type { RecipePreview } from '../types/recipe';
 import { getFeaturedRecipes, getPopularRecipes } from '../api/recipes';
 import { RecipeGrid } from '../components/RecipeGrid';
+import { SEO } from '../components/SEO';
 
 export function Home() {
   const [featuredRecipes, setFeaturedRecipes] = useState<RecipePreview[]>([]);
@@ -25,6 +26,7 @@ export function Home() {
 
   return (
     <div className="space-y-8">
+      <SEO />
       <RecipeGrid recipes={featuredRecipes} title="Featured Recipes" />
       <RecipeGrid recipes={popularRecipes} title="Popular Recipes" />
     </div>

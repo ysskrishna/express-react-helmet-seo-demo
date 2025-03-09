@@ -4,6 +4,7 @@ import { StarIcon } from '@heroicons/react/20/solid';
 import { ClockIcon } from '@heroicons/react/24/outline';
 import type { Recipe } from '../types/recipe';
 import { getRecipeBySlug } from '../api/recipes';
+import { SEO } from '../components/SEO';
 
 export function RecipeDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -16,11 +17,23 @@ export function RecipeDetail() {
   }, [slug]);
 
   if (!recipe) {
-    return <div>Loading...</div>;
+    return (
+      <>
+        <SEO title="Loading Recipe..." />
+        <div>Loading...</div>
+      </>
+    );
   }
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <SEO
+        title={recipe.title}
+        description={recipe.description || `Learn how to make ${recipe.title} with our step-by-step recipe guide.`}
+        image={recipe.image}
+        type="article"
+        canonicalUrl={`${window.location.origin}/recipe/${slug}`}
+      />
       <div className="mb-8">
         <img
           src={recipe.image}

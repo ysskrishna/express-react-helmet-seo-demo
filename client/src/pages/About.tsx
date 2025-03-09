@@ -1,3 +1,5 @@
+import { SEO } from '../components/SEO';
+
 export function About() {
   const userData = {
     name: "Y. Siva Sai Krishna",
@@ -10,6 +12,13 @@ export function About() {
   }
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
+      <SEO
+        title="About"
+        description={userData.bio}
+        image={userData.image}
+        type="profile"
+        canonicalUrl={`${window.location.origin}/about`}
+      />
       <div className="text-center">
         <img
           src={userData.image}
