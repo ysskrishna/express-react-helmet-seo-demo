@@ -1,13 +1,12 @@
 import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 import recipeRouter from './routers/recipeRouter';
 import { createConnection } from './core/dbutils';
+import { getDirname } from './core/pathutils';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = getDirname(import.meta.url);
 
 dotenv.config();
 
