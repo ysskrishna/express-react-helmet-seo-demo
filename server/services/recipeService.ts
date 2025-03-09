@@ -1,8 +1,7 @@
-import { Recipe, RecipePreview } from './types';
-import { db } from './dbutils';
+import { Recipe, RecipePreview } from '../types';
+import { db } from '../core/dbutils';
 
 export class RecipeService {
-  
   static toPreview(recipe: Recipe): RecipePreview {
     return {
       recipe_id: recipe.recipe_id,
@@ -44,7 +43,7 @@ export class RecipeService {
   }
 
   static async getRecipeBySlug(slug: string): Promise<Recipe | undefined> {
-    const recipe =  db.data.recipes.find(r => r.slug === slug);
+    const recipe = db.data.recipes.find(r => r.slug === slug);
     if (recipe) {
       // Increment view count
       recipe.view_count += 1;

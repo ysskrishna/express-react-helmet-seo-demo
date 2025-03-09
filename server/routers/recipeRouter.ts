@@ -1,5 +1,5 @@
 import express, { Request, Response, Router } from 'express';
-import { RecipeService } from './recipeService';
+import { RecipeService } from '../services/recipeService';
 
 const router: Router = express.Router();
 
@@ -64,4 +64,4 @@ router.get('/slug/:slug', async (req: Request, res: Response) => {
   }
 });
 
-export default router;
+export default router; 
