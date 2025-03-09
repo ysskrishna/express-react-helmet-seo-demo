@@ -29,7 +29,7 @@ export function RecipeDetail() {
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <SEO
         title={recipe.title}
-        description={recipe.description || `Learn how to make ${recipe.title} with our step-by-step recipe guide.`}
+        description={`Learn how to make ${recipe.title} with our step-by-step recipe guide.`}
         image={recipe.image}
         type="article"
         canonicalUrl={`${window.location.origin}/recipe/${slug}`}

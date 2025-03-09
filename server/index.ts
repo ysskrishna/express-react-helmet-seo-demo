@@ -2,7 +2,7 @@ import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 import path from 'path';
 import dotenv from 'dotenv';
-import recipesRouter from './recipesRouter';
+import recipeRouter from './recipeRouter';
 
 dotenv.config();
 
@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api/recipes', recipesRouter);
+app.use('/api/recipes', recipeRouter);
 
 // Health check route
 app.get('/api/health', (req: Request, res: Response) => {
