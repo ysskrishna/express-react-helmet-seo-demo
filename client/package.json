@@ -1,8 +1,42 @@
 {
   "name": "client",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": {
+    "name": "ysskrishna",
+    "url": "https://github.com/ysskrishna"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "react-helmet-async",
+    "seo-optimization",
+    "ysskrishna",
+    "full-stack",
+    "boilerplate",
+    "starter-kit",
+    "tailwindcss",
+    "vite",
+    "esbuild",
+    "hot-reload",
+    "meta-tags",
+    "seo-optimization",
+    "react19",
+    "express-typescript",
+    "react-router",
+    "api",
+    "rest-api",
+    "web-development",
+    "frontend",
+    "backend"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysskrishna/express-react-helmet-seo-demo"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

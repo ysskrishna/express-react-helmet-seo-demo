@@ -1,7 +1,7 @@
 {
   "name": "express-react-helmet-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "A full-stack TypeScript boilerplate with React-Helmet-Async for SEO optimization and Express.js backend",
   "main": "server/index.ts",
   "type": "module",
   "scripts": {
@@ -20,8 +20,48 @@
     "start": "npm run build && npm run backend:start",
     "copy-json": "copyfiles -f \"server/**/*.json\" dist"
   },
-  "author": "ysskrishna",
-  "license": "ISC",
+  "author": {
+    "name": "ysskrishna",
+    "url": "https://github.com/ysskrishna"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "typescript",
+    "seo",
+    "helmet",
+    "react-helmet-async",
+    "ysskrishna",
+    "full-stack",
+    "boilerplate",
+    "starter-kit",
+    "tailwindcss",
+    "vite",
+    "esbuild",
+    "hot-reload",
+    "meta-tags",
+    "seo-optimization",
+    "react19",
+    "express-typescript",
+    "react-router",
+    "api",
+    "rest-api",
+    "web-development",
+    "frontend",
+    "backend",
+    "node",
+    "javascript",
+    "responsive-design",
+    "development-server",
+    "production-build",
+    "modern-web",
+    "template"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysskrishna/express-react-helmet-seo-demo"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",

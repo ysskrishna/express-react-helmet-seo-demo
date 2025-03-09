@@ -1,4 +1,4 @@
-# Express React Helmet SEO Demo
+# React + Express TypeScript Boilerplate
 
 A full-stack TypeScript application demonstrating advanced SEO optimization using React-Helmet-Async at the page level with an Express.js backend and React Frontend. This project showcases modern development practices including optimized production builds with esbuild, TailwindCSS for styling, and TypeScript integration throughout the stack.
 
@@ -124,10 +124,10 @@ react-helmet-seo-demo/
 ## Technology Stack
 - React 19
 - React-Helmet-Async
-- Vite + Typescript
+- Vite + TypeScript
 - Tailwindcss
 - Axios
-- Express.js + Typescript (Tsx for development and Esbuild for production)
+- Express.js + TypeScript (Tsx for development and Esbuild for production)
 - LowDB (JSON Database)
 - Concurrently
 
