@@ -5,7 +5,7 @@
   "main": "server/index.ts",
   "type": "module",
   "scripts": {
-    "backend:build": "esbuild server/index.ts --bundle --platform=node --target=node18 --outfile=dist/index.js --format=esm --packages=external",
+    "backend:build": "esbuild server/index.ts --bundle --platform=node --target=node18 --outfile=dist/index.js --format=esm --packages=external && npm run copy-json",
     "backend:start": "cross-env NODE_ENV=production node dist/index.js",
     "backend:dev": "tsx watch server/index.ts",
     "install-all": "npm install && cd client && npm install",
@@ -15,7 +15,8 @@
     "client:build": "cd client && npm run build",
     "clean": "npm run backend:clean && npm run client:clean",
     "build": "npm run clean && npm run backend:build && npm run client:build",
-    "start": "npm run build && npm run backend:start"
+    "start": "npm run build && npm run backend:start",
+    "copy-json": "copyfiles -f \"server/**/*.json\" dist"
   },
   "author": "ysskrishna",
   "license": "ISC",
@@ -36,6 +37,7 @@
     "nodemon": "^3.1.9",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "copyfiles": "^2.4.1"
   }
 }
