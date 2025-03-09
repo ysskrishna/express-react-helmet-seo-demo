@@ -1,11 +1,16 @@
-import { JSONFilePreset } from 'lowdb/node';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { Database } from './types';
+import { JSONFilePreset } from "lowdb/node";
+import path from "path";
+import { Database } from "./types";
+import { Low } from "lowdb";
 
-// Create __dirname equivalent for ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+export let db: Low<Database>;
 
-const filePath = path.join(__dirname, 'db.json');
-export const db = await JSONFilePreset<Database>(filePath, { recipes: [] }); 
+export const createConnection = async () => {
+    const projectBasePath = process.cwd();
+    const dbPathAndFileName = path.join(projectBasePath, "server/db.json");
+    console.log("Creating connection to database...", dbPathAndFileName);
+
+    db = await JSONFilePreset<Database>(dbPathAndFileName, { recipes: [] });
+
+    console.log("Connection to database created successfully");
+};

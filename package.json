@@ -5,7 +5,7 @@
   "main": "server/index.ts",
   "type": "module",
   "scripts": {
-    "backend:build": "tsc",
+    "backend:build": "esbuild server/index.ts --bundle --platform=node --target=node18 --outfile=dist/index.js --format=esm --packages=external",
     "backend:start": "cross-env NODE_ENV=production node dist/index.js",
     "backend:dev": "tsx watch server/index.ts",
     "install-all": "npm install && cd client && npm install",
@@ -24,13 +24,13 @@
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "lowdb": "^7.0.1",
+    "lowdb": "^7.0.0",
     "tsx": "^4.19.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
-    "@types/lowdb": "^1.0.15",
+    "@types/lowdb": "^1.0.11",
     "@types/node": "^22.13.10",
     "concurrently": "^9.1.2",
     "nodemon": "^3.1.9",

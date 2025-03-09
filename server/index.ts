@@ -1,10 +1,18 @@
 import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 import recipeRouter from './recipeRouter';
+import { createConnection } from './dbutils';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 dotenv.config();
+
+// Create connection to database
+createConnection();
 
 const app: Express = express();
 const port = process.env.PORT || 5000;
@@ -22,11 +30,11 @@ app.get('/api/health', (req: Request, res: Response) => {
   res.status(200).json({ status: 'UP' });
 });
 
-
 if (isProduction) {
-  app.use(express.static(path.join(__dirname, '../client/dist')));
+  const clientDistPath = path.join(__dirname, '../client/dist');
+  app.use(express.static(clientDistPath));
   app.get('*', (req: Request, res: Response) => {
-    res.sendFile(path.join(__dirname, '../client/dist', 'index.html'));
+    res.sendFile(path.join(clientDistPath, 'index.html'));
   });
 }
 
