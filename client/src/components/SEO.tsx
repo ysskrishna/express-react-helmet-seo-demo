@@ -4,8 +4,8 @@ interface SEOProps {
   title?: string;
   description?: string;
   ogImage?: string;
+  ogType?: string;
   twitterImage?: string;
-  type?: string;
   canonicalUrl?: string;
 }
 
@@ -13,8 +13,8 @@ export function SEO({
   title = 'Express React Typescript SEO Starter',
   description = 'A full-stack React + Express starter template with advanced SEO optimization using React Helmet Async. Includes TypeScript, Vite, and TailwindCSS.',
   ogImage = '/og-image.png',
+  ogType = 'website',
   twitterImage = '/twitter.png',
-  type = 'website',
   canonicalUrl,
 }: SEOProps) {
   const siteTitle = title === 'Express React Typescript SEO Starter' ? title : `${title} | Express React Typescript SEO Starter`;
@@ -30,7 +30,7 @@ export function SEO({
       <meta property="og:title" content={siteTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:type" content={type} />
+      <meta property="og:type" content={ogType} />
       {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
 
       {/* Twitter Card meta tags */}

@@ -18,7 +18,7 @@ export function Creator() {
         title="Creator"
         description={userData.bio}
         ogImage={userData.image}
-        type="profile"
+        ogType="profile"
         canonicalUrl={`${window.location.origin}/creator`}
       />
       <div className="text-center">

@@ -32,7 +32,7 @@ export function RecipeDetail() {
         description={`Learn how to make ${recipe.title} with our step-by-step recipe guide.`}
         ogImage={recipe.image}
         twitterImage={recipe.image}
-        type="article"
+        ogType="article"
         canonicalUrl={`${window.location.origin}/recipe/${slug}`}
       />
       <div className="mb-8">
