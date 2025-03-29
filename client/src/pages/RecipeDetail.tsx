@@ -30,7 +30,8 @@ export function RecipeDetail() {
       <SEO
         title={recipe.title}
         description={`Learn how to make ${recipe.title} with our step-by-step recipe guide.`}
-        image={recipe.image}
+        ogImage={recipe.image}
+        twitterImage={recipe.image}
         type="article"
         canonicalUrl={`${window.location.origin}/recipe/${slug}`}
       />

@@ -17,7 +17,7 @@ export function Creator() {
       <SEO
         title="Creator"
         description={userData.bio}
-        image={userData.image}
+        ogImage={userData.image}
         type="profile"
         canonicalUrl={`${window.location.origin}/creator`}
       />
