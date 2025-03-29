@@ -25,19 +25,19 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-gray-400 hover:text-white transition">
-                  About
+                <a href="/creator" className="text-gray-400 hover:text-white transition">
+                  Creator
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
+            <h3 className="text-lg font-semibold mb-4">Connect With Creator</h3>
             <ul className="space-y-2">
               <li>
                 <a href="https://bento.me/ysskrishna" target="_blank" rel="noopener noreferrer"
                    className="text-gray-400 hover:text-white transition">
-                  Bento
+                  Website
                 </a>
               </li>
               <li>

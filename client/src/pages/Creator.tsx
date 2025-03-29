@@ -1,6 +1,6 @@
 import { SEO } from '../components/SEO';
 
-export function About() {
+export function Creator() {
   const userData = {
     name: "Y. Siva Sai Krishna",
     image: "https://github.com/ysskrishna.png",
@@ -13,11 +13,11 @@ export function About() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <SEO
-        title="About"
+        title="Creator"
         description={userData.bio}
         image={userData.image}
         type="profile"
-        canonicalUrl={`${window.location.origin}/about`}
+        canonicalUrl={`${window.location.origin}/creator`}
       />
       <div className="text-center">
         <img

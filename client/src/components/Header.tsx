@@ -19,8 +19,8 @@ export function Header() {
                 <Link to="/recipes" className="px-3 py-2 rounded-md text-gray-900 hover:text-indigo-600 hover:bg-indigo-50 transition">
                   Recipes
                 </Link>
-                <Link to="/about" className="px-3 py-2 rounded-md text-gray-900 hover:text-indigo-600 hover:bg-indigo-50 transition">
-                  About
+                <Link to="/creator" className="px-3 py-2 rounded-md text-gray-900 hover:text-indigo-600 hover:bg-indigo-50 transition">
+                  Creator
                 </Link>
               </div>
             </div>
@@ -62,11 +62,11 @@ export function Header() {
               Recipes
             </Link>
             <Link 
-              to="/about" 
+              to="/creator" 
               className="block px-3 py-2 rounded-md text-gray-900 hover:text-indigo-600 hover:bg-indigo-50 transition"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              About
+              Creator
             </Link>
           </div>
         </div>

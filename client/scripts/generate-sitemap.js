@@ -11,7 +11,7 @@ const BASE_URL = 'http://localhost:5000'; // Change if deploying
 const pages = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
   { url: '/recipes', changefreq: 'daily', priority: 0.9 },
-  { url: '/about', changefreq: 'monthly', priority: 0.7 },
+  { url: '/creator', changefreq: 'monthly', priority: 0.7 },
 ];
 
 const sitemapStream = new SitemapStream({ hostname: BASE_URL });
