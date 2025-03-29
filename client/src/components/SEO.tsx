@@ -9,13 +9,13 @@ interface SEOProps {
 }
 
 export function SEO({
-  title = 'Recipe Feast',
-  description = 'Discover delicious recipes and improve your cooking skills with our collection of tested recipes from around the world.',
+  title = 'Express React SEO Starter',
+  description = 'A full-stack React + Express starter template with advanced SEO optimization using React Helmet Async. Includes TypeScript, Vite, and TailwindCSS.',
   image = '/logo.png',
   type = 'website',
   canonicalUrl,
 }: SEOProps) {
-  const siteTitle = title === 'Recipe Feast' ? title : `${title} | Recipe Feast`;
+  const siteTitle = title === 'Express React SEO Starter' ? title : `${title} | Express React SEO Starter`;
 
   return (
     <Helmet>
