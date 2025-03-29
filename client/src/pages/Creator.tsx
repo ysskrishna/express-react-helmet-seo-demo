@@ -9,6 +9,8 @@ export function Creator() {
     website: "https://bento.me/ysskrishna",
     github: "https://github.com/ysskrishna",
     linkedin: "https://linkedin.com/in/ysskrishna",
+    producthunt: "https://www.producthunt.com/@ysskrishna/submitted",
+    youtube: "https://www.youtube.com/@ysskrishna",
   }
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
@@ -53,6 +55,18 @@ export function Creator() {
             <span className="font-semibold">LinkedIn:</span>{" "}
             <a href={userData.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
               {userData.linkedin}
+            </a>
+          </p>
+          <p>
+            <span className="font-semibold">Product Hunt:</span>{" "}
+            <a href={userData.producthunt} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              {userData.producthunt}
+            </a>
+          </p>
+          <p>
+            <span className="font-semibold">YouTube:</span>{" "}
+            <a href={userData.youtube} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              {userData.youtube}
             </a>
           </p>
         </div>

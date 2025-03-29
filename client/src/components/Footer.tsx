@@ -52,7 +52,18 @@ export function Footer() {
                   GitHub
                 </a>
               </li>
-              
+              <li>
+                <a href="https://www.producthunt.com/@ysskrishna/submitted" target="_blank" rel="noopener noreferrer"
+                   className="text-gray-400 hover:text-white transition">
+                  Product Hunt
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@ysskrishna" target="_blank" rel="noopener noreferrer"
+                   className="text-gray-400 hover:text-white transition">
+                  YouTube
+                </a>
+              </li>
             </ul>
           </div>
         </div>
