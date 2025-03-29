@@ -4,7 +4,7 @@ A modern React application built with TypeScript and Vite, showcasing advanced S
 
 ## Features
 
-- ⚛️ Built with React 19 and TypeScript
+- ⚛️ Built with React and TypeScript
 - 🎯 Page-level SEO management using React Helmet Async
 - 🚀 Vite for lightning-fast development
 - 🎨 TailwindCSS for modern, utility-first styling

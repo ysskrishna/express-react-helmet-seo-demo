@@ -6,7 +6,7 @@ A full-stack TypeScript application demonstrating advanced SEO optimization usin
 ## Features
 
 - 🚀 Full-stack TypeScript setup with hot-reloading
-- ⚛️ React 19 with Vite for lightning-fast development
+- ⚛️ React with Vite for lightning-fast development
 - 🎯 Page-level SEO management using React Helmet Async
 - 🔧 Express.js backend with TypeScript and esbuild
 - 📦 LowDB for lightweight JSON-based data persistence
@@ -122,9 +122,8 @@ react-helmet-seo-demo/
 ```
 
 ## Technology Stack
-- React 19
+- React + Vite + TypeScript
 - React-Helmet-Async
-- Vite + TypeScript
 - Tailwindcss
 - Axios
 - Express.js + TypeScript (Tsx for development and Esbuild for production)
