@@ -1,4 +1,4 @@
-# React-Helmet-Async Boilerplate Implementation
+# Express React Typescript SEO Starter - Client
 
 A modern React application built with TypeScript and Vite, showcasing advanced SEO optimization using React-Helmet-Async. This frontend is part of a full-stack recipe sharing platform that demonstrates best practices in modern web development.
 

@@ -6,7 +6,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
             <p className="text-gray-400">
-              This is a demo application showcasing the Express React SEO Starter template.
+              This is a demo application showcasing the Express React Typescript SEO Starter template.
               The recipe sharing platform demonstrates advanced SEO optimization, TypeScript integration,
               and modern React best practices.
             </p>

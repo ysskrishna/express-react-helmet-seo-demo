@@ -1,5 +1,5 @@
 {
-  "name": "express-react-helmet-backend",
+  "name": "express-react-typescript-seo-backend",
   "version": "1.0.0",
   "description": "A full-stack TypeScript boilerplate with React-Helmet-Async for SEO optimization and Express.js backend",
   "main": "server/index.ts",

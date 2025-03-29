@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "express-react-typescript-seo-client",
   "private": true,
   "version": "1.0.0",
   "type": "module",

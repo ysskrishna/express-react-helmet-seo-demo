@@ -9,13 +9,13 @@ interface SEOProps {
 }
 
 export function SEO({
-  title = 'Express React SEO Starter',
+  title = 'Express React Typescript SEO Starter',
   description = 'A full-stack React + Express starter template with advanced SEO optimization using React Helmet Async. Includes TypeScript, Vite, and TailwindCSS.',
   image = '/logo.png',
   type = 'website',
   canonicalUrl,
 }: SEOProps) {
-  const siteTitle = title === 'Express React SEO Starter' ? title : `${title} | Express React SEO Starter`;
+  const siteTitle = title === 'Express React Typescript SEO Starter' ? title : `${title} | Express React Typescript SEO Starter`;
 
   return (
     <Helmet>

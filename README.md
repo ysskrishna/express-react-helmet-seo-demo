@@ -1,4 +1,4 @@
-# React + Express TypeScript Boilerplate
+# Express React Typescript SEO Starter
 
 A full-stack TypeScript application demonstrating advanced SEO optimization using React-Helmet-Async at the page level with an Express.js backend and React Frontend. This project showcases modern development practices including optimized production builds with esbuild, TailwindCSS for styling, and TypeScript integration throughout the stack.
 
