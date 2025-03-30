@@ -46,8 +46,8 @@ npm run dev
 ```
 
 The development environment will start with:
-- Frontend server at http://localhost:5173
-- Backend server at http://localhost:5000
+- Frontend server at `http://localhost:5173`
+- Backend server at `http://localhost:5000`
 - Hot reloading enabled for both servers
 
 
