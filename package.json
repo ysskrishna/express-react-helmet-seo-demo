@@ -1,6 +1,6 @@
 {
   "name": "express-react-typescript-seo-backend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A full-stack TypeScript boilerplate with React-Helmet-Async for SEO optimization and Express.js backend",
   "main": "server/index.ts",
   "type": "module",
@@ -41,7 +41,6 @@
     "hot-reload",
     "meta-tags",
     "seo-optimization",
-    "react19",
     "express-typescript",
     "react-router",
     "api",
@@ -55,7 +54,14 @@
     "development-server",
     "production-build",
     "modern-web",
-    "template"
+    "template",
+    "docker",
+    "sitemap",
+    "robots-txt",
+    "social-media",
+    "open-graph",
+    "twitter-cards",
+    "documentation"
   ],
   "license": "MIT",
   "repository": {
