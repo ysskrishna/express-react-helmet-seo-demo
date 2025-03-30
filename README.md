@@ -1,5 +1,11 @@
 # Express React Typescript SEO Starter
 
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.0+-blue.svg)](https://reactjs.org/)
+[![Express](https://img.shields.io/badge/Express-4.18+-blue.svg)](https://expressjs.com/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0+-blue.svg)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A full-stack TypeScript application demonstrating advanced SEO optimization using React-Helmet-Async at the page level with an Express.js backend and React Frontend. This project showcases modern development practices including optimized production builds with esbuild, TailwindCSS for styling, and TypeScript integration throughout the stack.
 
 
