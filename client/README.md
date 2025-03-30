@@ -14,6 +14,8 @@ A modern React application built with TypeScript and Vite, showcasing advanced S
 - 🖼️ Hero Icons for beautiful UI elements
 - 📦 Axios for API communication
 
+For detailed SEO implementation guidelines, check out our [SEO Documentation](../SEO.md).
+
 ## Prerequisites
 
 - Node.js (v18 or higher)
@@ -25,18 +27,3 @@ A modern React application built with TypeScript and Vite, showcasing advanced S
 - `npm run build` - Build for production
 - `npm run lint` - Run ESLint
 - `npm run preview` - Preview production build locally
-
-
-## SEO Implementation
-
-The application uses React Helmet Async for managing SEO meta tags. Each page component includes SEO configuration:
-
-```tsx
-<SEO
-  title="Page Title"
-  description="Page description"
-  image="/path/to/image.jpg"
-  type="website"
-  canonicalUrl="https://example.com/page"
-/>
-```

@@ -20,6 +20,8 @@ A full-stack TypeScript application demonstrating advanced SEO optimization usin
 - 🏷️ Dynamic meta tags and title updates
 - 📱 Mobile responsive layout
 
+For detailed SEO implementation guidelines, check out our [SEO Documentation](SEO.md).
+
 ## Prerequisites
 
 - Node.js (v18 or higher)
