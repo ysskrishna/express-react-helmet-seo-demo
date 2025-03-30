@@ -20,70 +20,12 @@ A full-stack TypeScript application demonstrating advanced SEO optimization usin
 - 🏷️ Dynamic meta tags and title updates
 - 📱 Mobile responsive layout
 
-For detailed SEO implementation guidelines, check out our [SEO Documentation](SEO.md).
+## Documentation
 
-## Prerequisites
+- **[CHANGELOG.md](CHANGELOG.md)**: Contains a chronologically ordered list of notable changes for each version of the project.
+- **[DEVELOPMENT.md](DEVELOPMENT.md)**: Comprehensive guide for developers, including installation from source, development practices, dependency management with Poetry, and pre-commit hook setup.
+- **[SEO.md](SEO.md)**: Detailed SEO implementation guidelines and best practices.
 
-- Node.js (v18 or higher)
-- npm (v8 or higher)
-
-## Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ysskrishna/express-react-helmet-seo-demo.git
-cd express-react-helmet-seo-demo
-```
-
-2. Install all dependencies (both frontend and backend):
-```bash
-npm run install-all
-```
-
-3. Start development servers:
-```bash
-npm run dev
-```
-
-The development environment will start with:
-- Frontend server at `http://localhost:5173`
-- Backend server at `http://localhost:5000`
-- Hot reloading enabled for both servers
-
-
-4. Starting production:
-```bash
-npm run build
-npm run start
-```
-
-The production environment will start with:
-- Single server for frontend + backend at http://localhost:5000
-
-
-## Available Scripts
-
-### Development
-- `npm run dev` - Start both frontend and backend development servers concurrently
-- `npm run backend:dev` - Start backend development server with hot-reloading (tsx watch)
-- `npm run client:dev` - Start frontend development server (Vite)
-
-### Build
-- `npm run build` - Clean and build both frontend and backend for production
-- `npm run client:build` - Build frontend only (Vite build)
-- `npm run backend:build` - Build backend only (esbuild)
-  - Bundles TypeScript
-  - Handles external dependencies
-  - Copies JSON files
-  - Generates ESM output
-
-### Production
-- `npm run start` - Run backend `dist` folder and `client/dist` folder in a single server
-- `npm run backend:start` - Start backend in production mode by running the backend `dist` folder
-
-### Utility
-- `npm run clean` - Clean build directories for both frontend and backend
-- `npm run install-all` - Install dependencies for both frontend and backend
 
 ## Project Structure
 
@@ -101,8 +43,10 @@ react-helmet-seo-demo/
 │   │   ├── index.css        # Global styles
 │   │   └── vite-env.d.ts    # Vite environment types
 │   ├── public/              # Static assets
+│   ├── scripts/             # Build and utility scripts
 │   ├── dist/                # Frontend Build output
 │   ├── index.html           # Entry HTML file
+│   ├── robots.txt           # SEO robots configuration
 │   ├── vite.config.ts       # Vite configuration
 │   ├── tailwind.config.js   # Tailwind CSS configuration
 │   ├── postcss.config.js    # PostCSS configuration
@@ -110,7 +54,8 @@ react-helmet-seo-demo/
 │   ├── tsconfig.json        # TypeScript base configuration
 │   ├── tsconfig.app.json    # TypeScript app configuration
 │   ├── tsconfig.node.json   # TypeScript Node configuration
-│   └── package.json         # Frontend dependencies
+│   ├── package.json         # Frontend dependencies
+│   └── .gitignore           # Git ignore rules
 ├── server/                  # Backend Express application
 │   ├── core/                # Core server functionality
 │   ├── routers/             # API routes
@@ -119,6 +64,12 @@ react-helmet-seo-demo/
 │   └── index.ts             # Server entry point
 ├── dist/                    # Backend Production build output
 ├── .env                     # Backend Environment variables
+├── .gitignore               # Git ignore rules
+├── CHANGELOG.md             # Project changelog
+├── DEVELOPMENT.md           # Development guidelines
+├── LICENSE.md               # Project license
+├── README.md                # Project documentation
+├── SEO.md                   # SEO implementation guide
 ├── package.json             # Project dependencies and scripts
 └── tsconfig.json            # TypeScript configuration
 ```
@@ -135,11 +86,6 @@ react-helmet-seo-demo/
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
-
 
 ## License
 
