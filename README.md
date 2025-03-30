@@ -19,6 +19,17 @@ A full-stack TypeScript application demonstrating advanced SEO optimization usin
 - 🔒 CORS configuration for secure cross-origin requests
 - 🏷️ Dynamic meta tags and title updates
 - 📱 Mobile responsive layout
+- 🐳 Docker support for easy deployment and testing
+
+## Quick Start with Docker
+
+The fastest way to run the application is using Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+This will build and start the application in production mode at http://localhost:5000.
 
 ## Documentation
 
@@ -43,7 +54,9 @@ react-helmet-seo-demo/
 │   │   ├── index.css        # Global styles
 │   │   └── vite-env.d.ts    # Vite environment types
 │   ├── public/              # Static assets
+│   │   └── sitemap.xml      # Generated sitemap for SEO
 │   ├── scripts/             # Build and utility scripts
+│   │   └── generate-sitemap.js  # Script to generate sitemap
 │   ├── dist/                # Frontend Build output
 │   ├── index.html           # Entry HTML file
 │   ├── robots.txt           # SEO robots configuration
@@ -51,9 +64,7 @@ react-helmet-seo-demo/
 │   ├── tailwind.config.js   # Tailwind CSS configuration
 │   ├── postcss.config.js    # PostCSS configuration
 │   ├── eslint.config.js     # ESLint configuration
-│   ├── tsconfig.json        # TypeScript base configuration
-│   ├── tsconfig.app.json    # TypeScript app configuration
-│   ├── tsconfig.node.json   # TypeScript Node configuration
+│   ├── tsconfig.json        # TypeScript configuration
 │   ├── package.json         # Frontend dependencies
 │   └── .gitignore           # Git ignore rules
 ├── server/                  # Backend Express application
@@ -71,7 +82,10 @@ react-helmet-seo-demo/
 ├── README.md                # Project documentation
 ├── SEO.md                   # SEO implementation guide
 ├── package.json             # Project dependencies and scripts
-└── tsconfig.json            # TypeScript configuration
+├── tsconfig.json            # TypeScript configuration
+├── Dockerfile              # Docker configuration for the application
+├── docker-compose.yml      # Docker Compose configuration
+└── .dockerignore          # Docker ignore rules
 ```
 
 ## Technology Stack
@@ -82,6 +96,7 @@ react-helmet-seo-demo/
 - Express.js + TypeScript (Tsx for development and Esbuild for production)
 - LowDB (JSON Database)
 - Concurrently
+- Docker
 
 ## Contributing
 

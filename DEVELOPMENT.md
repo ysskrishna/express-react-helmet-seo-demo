@@ -6,8 +6,21 @@ This guide provides comprehensive instructions for setting up and running the pr
 
 - Node.js (v18 or higher)
 - npm (v8 or higher)
+- Docker and Docker Compose (optional, for containerized development)
 
 ## Getting Started
+
+### Option 1: Docker (Quickest way to test)
+
+If you want to quickly test the application, you can use Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+This will build and start the application in production mode at http://localhost:5000.
+
+### Option 2: Local Development Setup
 
 1. Clone the repository:
 ```bash
