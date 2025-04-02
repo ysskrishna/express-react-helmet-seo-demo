@@ -8,6 +8,15 @@
 
 A full-stack TypeScript application demonstrating advanced SEO optimization using React-Helmet-Async at the page level with an Express.js backend and React Frontend. This project showcases modern development practices including optimized production builds with esbuild, TailwindCSS for styling, and TypeScript integration throughout the stack.
 
+<a href="https://www.producthunt.com/posts/express-react-typescript-seo-starter?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-express&#0045;react&#0045;typescript&#0045;seo&#0045;starter" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=947185&theme=light&t=1743625514251" alt="Express&#0032;React&#0032;Typescript&#0032;SEO&#0032;Starter - SEO&#0045;optimized&#0032;React&#0032;starter&#0032;for&#0032;top&#0032;rankings&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+
+## Product Video 👇
+
+[![Express React Typescript SEO Starter](./client/public/og-image.png)](https://youtu.be/TcjIwunK8m8)
+
+[Watch the full video on YouTube](https://youtu.be/TcjIwunK8m8)
+
 
 ## Features
 
